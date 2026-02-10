@@ -3,9 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>uhhEmi</title>
     <link href="./output.css" rel="stylesheet" />
+    <script src="script.js"></script>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body class="bg-black">
+    <div class="relative h-screen overflow-hidden">
+      <!--Absolute video background-->
+      <video
+        src="assets/backgrounds/background1.mp4"
+        class="absolute inset-0 h-full w-full object-cover blur-[2px]"
+        autoplay
+        muted
+        loop
+      ></video>
+      <!--Main page content-->
+      <div class="relative z-10 flex h-screen w-full">
+        <div
+          id="overlay1"
+          class="absolute bg-black top-[-10vh] left-[-25vw] h-[30vh] w-[150vw] rotate-[1deg]"
+          style="animation: topSway 6s ease-in-out infinite"
+        ></div>
+        <div
+          id="overlay2"
+          class="absolute bg-black bottom-[-18vh] left-[-25vw] h-[40vh] w-[150vw] rotate-[-3deg]"
+          style="animation: botSway 6s ease-in-out infinite"
+        ></div>
+      </div>
+    </div>
+    <div class="h-[200vh] bg-linear-to-b from-black to-purple-500"></div>
   </body>
 </html>

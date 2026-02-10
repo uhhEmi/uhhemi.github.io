@@ -1,1 +1,20 @@
 @import 'tailwindcss';
+@keyframes topSway {
+  0%,
+  100% {
+    transform: translateY(0) rotate(4deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(2deg);
+  }
+}
+
+@keyframes botSway {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(15px) rotate(-5deg);
+  }
+}
