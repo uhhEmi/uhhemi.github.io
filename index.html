@@ -8,7 +8,7 @@
     <script src="src/scripts/script.js"></script>
   </head>
   <body class="bg-black">
-    <div class="relative h-screen overflow-hidden flex flex-auto">
+    <div class="relative h-screen overflow-hidden">
       <video
         src="src/assets/backgrounds/background50mb.mp4"
         class="absolute inset-0 h-full w-full object-cover blur-[2px]"
@@ -21,11 +21,20 @@
         class="absolute bg-black top-[-10vh] left-[-25vw] h-[30vh] w-[150vw] rotate-[1deg]"
         style="animation: topSway 6s ease-in-out infinite"
       ></div>
-      <div class="relative flex flex-auto">
-        <img src="src/assets/characters/temp.png" alt="OC" class="flex-5" />
-        <div class="relative bg-black flex-10">a</div>
+      <div class="flex h-screen px-[2vw] items-center gap-4">
+        <div class="relative grow-3 basis-3/7">
+          <img
+            src="src/assets/characters/slience.png"
+            alt="OC"
+            class="h-full"
+          />
+        </div>
+        <div
+          class="relative h-[50vh] grow-4 basis-4/7 bg-white/20 backdrop-blur-md rounded-lg"
+        >
+          <h1 class="text-red-950">uhhEmi</h1>
+        </div>
       </div>
-      <div></div>
       <div
         id="overlay2"
         class="absolute bg-black bottom-[-20vh] left-[-25vw] h-[40vh] w-[150vw] rotate-[-3deg]"
