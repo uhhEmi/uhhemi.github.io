@@ -45,3 +45,12 @@
     transform: translate(0px, 0px) rotate(0deg);
   }
 }
+
+@font-face {
+  font-family: darlingCoffee;
+  src: url(/src/assets/fonts/darlingCoffee/Darling\ Coffee.ttf);
+}
+@font-face {
+  font-family: moodCake;
+  src: url(/src/assets/fonts/moodCake/Moodcake.ttf);
+}
