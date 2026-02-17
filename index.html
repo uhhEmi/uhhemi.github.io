@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>uhhEmi</title>
     <link href="src/output.css" rel="stylesheet" />
-    <script src="src/scripts/script.js"></script>
   </head>
   <body class="bg-black">
     <div class="relative h-screen overflow-hidden">
@@ -24,9 +23,11 @@
       <div class="flex h-screen px-[2vw] items-center gap-4">
         <div class="relative grow-3 basis-3/7">
           <img
-            src="src/assets/characters/slience.png"
+            src="src/assets/characters/default.png"
             alt="OC"
             class="h-full"
+            id="oc-img"
+            style="animation: charSway 10s infinite ease-in-out"
           />
         </div>
         <div
@@ -42,5 +43,6 @@
       ></div>
     </div>
     <div class="h-[200vh]"></div>
+    <script src="src/scripts/script.js"></script>
   </body>
 </html>
