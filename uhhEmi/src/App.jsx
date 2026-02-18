@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import AnimatedBG from './components/AnimatedBG';
+import MainPage from './components/MainPage';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="h-screen w-screen">
-      <AnimatedBG />
+      <MainPage />
     </div>
   );
 }
