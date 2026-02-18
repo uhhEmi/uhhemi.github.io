@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>uhhEmi</title>
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="src/assets/icon/icon.ico" />
+  </head>
+  <body class="bg-black">
+    <div class="relative h-screen overflow-hidden">
+      <video
+        src="src/assets/backgrounds/background25mb.mp4"
+        class="absolute inset-0 h-full w-full object-cover blur-[2px]"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div
+        id="overlay1"
+        class="absolute bg-black top-[-10vh] left-[-25vw] h-[30vh] w-[150vw] rotate-[1deg]"
+        style="animation: topSway 6s ease-in-out infinite"
+      ></div>
+        
+      <div class="flex h-screen px-[2vw] items-center gap-4">
+        <div class="relative grow-3 basis-3/7">
+          <img
+            src="src/assets/characters/default.png"
+            alt="uhhEmi's OC"
+            class="h-full"
+            id="oc-img"
+            style="animation: charSway 10s infinite ease-in-out"
+          />
+        </div>
+        <div
+          class="relative h-[50vh] grow-4 basis-4/7 bg-red-100/25 backdrop-blur-md rounded-lg flex items-center justify-center flex-col p-5"
+        >
+          <h1
+            class="text-[#86b6d1] font-[darlingCoffee] text-5xl drop-shadow-[#436071] drop-shadow-xl"
+          >
+            uhhEmi
+          </h1>
+          <h1 class="text-white font-[moodCake] text-lg">
+            Hii!! I'm uhhEmi, I'm a 17y/o from New Zealand 🇳🇿.
+          </h1>
+        </div>
+      </div>
+      <div
+        id="overlay2"
+        class="absolute bg-black bottom-[-20vh] left-[-25vw] h-[40vh] w-[150vw] rotate-[-3deg]"
+        style="animation: botSway 6s ease-in-out infinite"
+      ></div>
+    </div>
+    <div class="h-[200vh] bg-linear-to-b from-black to bg-purple-900"></div>
+    <script src="src/scripts/script.js"></script>
+  </body>
+</html>
