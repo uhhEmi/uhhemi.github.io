@@ -21,7 +21,7 @@
         class="absolute bg-black top-[-10vh] left-[-25vw] h-[30vh] w-[150vw] rotate-[1deg]"
         style="animation: topSway 6s ease-in-out infinite"
       ></div>
-        
+
       <div class="flex h-screen px-[2vw] items-center gap-4">
         <div class="relative grow-3 basis-3/7">
           <img
@@ -33,7 +33,7 @@
           />
         </div>
         <div
-          class="relative h-[50vh] grow-4 basis-4/7 bg-red-100/25 backdrop-blur-md rounded-lg flex items-center justify-center flex-col p-5"
+          class="relative h-[50vh] grow-4 basis-4/7 bg-red-100/25 backdrop-blur-md rounded-lg flex items-center justify-center flex-col p-5 gap-1"
         >
           <h1
             class="text-[#86b6d1] font-[darlingCoffee] text-5xl drop-shadow-[#436071] drop-shadow-xl"
@@ -41,8 +41,31 @@
             uhhEmi
           </h1>
           <h1 class="text-white font-[moodCake] text-lg">
-            Hii!! I'm uhhEmi, I'm a 17y/o from New Zealand 🇳🇿.
+            Hii!! I'm uhhEmi (they/them), I'm a 17y/o from New Zealand 🇳🇿!
           </h1>
+          <div class="flex gap-3 mt-3">
+            <button
+              class="px-4 py-2 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-lg active:scale-95"
+            >
+              About me!
+            </button>
+
+            <button
+              class="px-4 py-2 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-lg active:scale-95"
+            >
+              Current obsessions :3
+            </button>
+
+            <button
+              class="group relative overflow-hidden px-4 py-2 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-lg active:scale-95"
+            >
+              <span class="block group-hover:hidden"> Contact me! </span>
+
+              <span class="hidden group-hover:block"
+                >Please im so lonely..
+              </span>
+            </button>
+          </div>
         </div>
       </div>
       <div
@@ -51,7 +74,9 @@
         style="animation: botSway 6s ease-in-out infinite"
       ></div>
     </div>
-    <div class="h-[200vh] bg-linear-to-b from-black to bg-purple-900"></div>
+    <div
+      class="relative h-[200vh] bg-linear-to-b from from-black to bg-purple-950"
+    ></div>
     <script src="src/scripts/script.js"></script>
   </body>
 </html>
