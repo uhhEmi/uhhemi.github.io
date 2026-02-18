@@ -1,4 +1,9 @@
 @import 'tailwindcss';
+
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes topSway {
   0%,
   100% {
